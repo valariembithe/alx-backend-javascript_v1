@@ -29,7 +29,7 @@ export default class Pricing {
 	}
 	static convertPrice(amount, conversionRate) {
 		if (!(amount instanceof Number)) {
-			throw new TypeError('amount must be a number')
+			throw new TypeError('amount must be a number');
 		}
 		if (!(conversionRate instanceof Number)) {
 			throw new TypeError('conversionRate must be a number');
