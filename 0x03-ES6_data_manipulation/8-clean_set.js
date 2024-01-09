@@ -10,7 +10,7 @@ export default function cleanSet(set, startString) {
       if (subString && subString !== value) {
         parts.push(subString);
       }
-    }  
+    }
   }
   return parts.join('-');
 }
