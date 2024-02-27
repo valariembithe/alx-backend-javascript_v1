@@ -3,6 +3,10 @@ const HOST = 'localhost';
 const PORT = 1245;
 const app = http.createServer();
 
+/**
+ * An app that calls http request
+ */
+
 app.on('request', (_, res) => {
   const responseText = 'Hello Holberton School!';
 
