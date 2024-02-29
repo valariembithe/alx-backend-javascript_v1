@@ -7,7 +7,7 @@ app.get('/', (_, res) => {
   res.send('Welcome to the payment system');
 });
 
-api.get('/cart/:id(\\d+)' (req, res) => {
+api.get('/cart/:id(\\d+)', (req, res) => {
   const id = req.params.id;
 
   res.send(`Payment methods for cart ${id}`);
